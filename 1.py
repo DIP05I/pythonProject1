@@ -10,3 +10,6 @@ for fruit in fruits:
     print(fruit)
 
 modulok.udvozles("Béla")
+
+a = 5
+print(type(a))
