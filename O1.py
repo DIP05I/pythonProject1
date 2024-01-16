@@ -1,10 +1,10 @@
 class Poligon:
-    def __init__(self,sides):
+    def __init__(self,sides,color = "red" ):
         self.sides = sides
-        #
+        self.color = color
 
-
-
+        # konstruktor első paramétere mindig self
+        # ha a paraméternek default értéke vana végére kell kerülnie
 
 
 class Triangle:
@@ -12,5 +12,6 @@ class Triangle:
 
 my_polygon = Poligon(4)
 print(my_polygon.sides)
+print(my_polygon.color)
 
 
