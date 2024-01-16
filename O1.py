@@ -4,7 +4,7 @@ class Poligon:
         self.color = color
 
         # konstruktor első paramétere mindig self
-        # ha a paraméternek default értéke vana végére kell kerülnie
+        # ha a paraméternek default értéke van a végére kell kerülnie
 
 
 class Triangle:
