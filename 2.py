@@ -13,3 +13,6 @@ if not (isinstance(inputresult, int)):
 else:
     if inputresult < 10:
         raise ValueError("10-nél kisebb számot adtál meg.")
+
+inputresult2 = input("Írj be egy szöveget: ")
+print(type(inputresult2))
