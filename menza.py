@@ -5,8 +5,20 @@ class Etel:
         self.ar = ar
 
 class Restaurant:
-    pass
+    def __init__(self,menuitems,etteremnev):
+        self.menuitems = menuitems
+        self.etteremnev = etteremnev
 
 
+    def __str__ getmenuitems(self):
+        pass
+
+    def __str__ (self):
+        return f"Az étterem neve: "{self.etteremnev}
+
+
+my_reataurant = Restaurant([],"Menza")
 kaja = Etel("leves",300)
+
+print(my_reataurant.etteremnev)
 
