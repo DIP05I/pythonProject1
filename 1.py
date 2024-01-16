@@ -1,6 +1,5 @@
 import this
-def udvozles(greet_name):
-    print(f"Hello", greet_name)
+import modulok
 
 for i in range(5):
     print(i)
@@ -10,4 +9,4 @@ fruits = ["lemon","apple","banana"]
 for fruit in fruits:
     print(fruit)
 
-udvozles("Béla")
+modulok.udvozles("Béla")
